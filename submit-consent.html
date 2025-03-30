@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consent Management</title>
+</head>
+<body>
+    <h2>Consent Management</h2>
+    <form action="/submit-consent" method="post">
+        <label>
+            <input type="checkbox" name="data_consent" value="1">
+            Allow sharing of location data
+        </label><br>
+        <label>
+            <input type="checkbox" name="data_consent" value="2">
+            Allow sharing of health data
+        </label><br>
+        <button type="submit">Save Consent</button>
+    </form>
+</body>
+</html>
